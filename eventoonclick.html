@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <label for="buscar"></label> 
+            <input type="text" name="buscar" id="buscador" placeholder="buscar">
+        <div class="cerrarsesion">
+            <button class="btn" onclick="cambiarTexto(this)">Iniciar sesión</button>
+        </div>
+    </div>
+    <div class="tarjeta1">
+        <div class="columna-izquierda1">
+            <h1 class="encabezado">Ninja</h1>
+            <div class="pronun">Noun </div>
+            <div class="plural">Plural: ninjas</div>
+        </div>
+        <div class="columna-derecha1"> 
+            <div class="significado">Un profesional hábil en el arte <span>Japonés</span> del <span>ninjutsu</span></div>
+        </div>
+        <button class="btn1" onclick="sumarLike(this)">13 Likes</button>     
+    </div>
+    <div class="tarjeta2">
+        <div class="columna-izquierda2">
+            <h2 class="encabezado2">Ninja</h2>
+            <div class="pronun2">Noun </div>
+            <div class="plural2">Plural: ninjas</div>
+        </div>
+        <div class="columna-derecha2">   
+            <div class="significado2">Un <span>desarrollador</span> que descompone los problemas con una concentración <span>zen</span></div>
+        </div>     
+        <button class="btn2" onclick="sumarLike2(this)">37 Likes</button>
+    </div>
+    <div class="sidenav">
+        <div class="comentario">Dojonary es definido por TI</div>
+        <button class="add" onclick="hide(this)">Agregar definición</button>
+    </div>
+    <script src="./onclick.js"></script>
+</body>
+</html>
